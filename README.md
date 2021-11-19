@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Github Beta Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link to site [Click Here](https://githubfinder1711.netlify.app/).
 
-## Available Scripts
+### Find any github user easily
 
-In the project directory, you can run:
+Write the username or name of the user in the search box and press Search to get all the users in one go.
 
 ### `npm start`
 
