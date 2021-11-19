@@ -7,3 +7,4 @@ Link to site [Click Here](https://githubfinder1711.netlify.app/).
 ### Find any github user easily
 
 Write the username or name of the user in the search box and press Search to get all the users in one go.
+Click on any user to know more about them and thier repositories.
