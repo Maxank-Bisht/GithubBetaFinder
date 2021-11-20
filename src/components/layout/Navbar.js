@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = ({ icon, title }) => {
 	return (
-		<nav className='flex justify-between items-center py-4 px-8 w-full mb-4 bg-gray-900 shadow-xl'>
-			<h1 className='text-2xl text-white font-medium'>
+		<nav className='flex flex-col gap-4 md:flex-row justify-between items-center py-4 px-8 w-full mb-4 bg-gray-900 shadow-xl'>
+			<h1 className='text-3xl text-white font-medium'>
 				<i className={icon}></i>
 				{title}
 			</h1>

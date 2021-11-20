@@ -20,7 +20,7 @@ const Search = ({ showAlert }) => {
 	const changeValue = (e) => setText(e.target.value);
 
 	return (
-		<div className='w-full'>
+		<div className='w-full mb-4'>
 			<form onSubmit={onSubmit} className='form flex gap-2 flex-col items-center justify-center'>
 				<input
 					className='w-full py-2 text-center bg-gray-300 rounded-2xl text-black font-normal text-xl'

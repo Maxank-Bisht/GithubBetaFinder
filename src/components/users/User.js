@@ -34,7 +34,7 @@ const User = ({ match }) => {
 
 	return (
 		<Fragment>
-			<div className='flex gap-4 justify-start items-center'>
+			<div className='flex gap-4 justify-center md:justify-start items-center'>
 				<Link to='/' className='bg-gray-800 text-gray-200 text-medium rounded-md py-2 px-4'>
 					Back to Search
 				</Link>
@@ -47,7 +47,7 @@ const User = ({ match }) => {
 					)}
 				</div>
 			</div>
-			<div className='grid grid-cols-2 gap-4 bg-gray-300 mt-4 rounded-t-md py-4'>
+			<div className='grid grid-cols-1 md:grid-cols-2 gap-4 bg-gray-300 mt-4 rounded-t-md py-4'>
 				<div className='flex flex-col justify-center items-center'>
 					<img
 						src={avatar_url}
@@ -58,10 +58,10 @@ const User = ({ match }) => {
 					<h1 className='font-bold text-2xl'>{name}</h1>
 					{location && <p className='italic'>Location: {location} </p>}
 				</div>
-				<div className='flex flex-col justify-center gap-2'>
+				<div className='px-6 md:px-0 flex flex-col justify-center gap-2'>
 					{bio && (
 						<Fragment>
-							<h1 className='text-2xl font-semibold'>Bio</h1>
+							<h1 className='text-2xl font-semibold underline'>Bio</h1>
 							<p className='text-lg'>{bio}</p>
 						</Fragment>
 					)}
